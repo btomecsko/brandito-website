@@ -1,5 +1,6 @@
 body {
     background-color: #112232;
+    color: #d4d9dd;
     text-align: center;
     margin: 0px;
     padding: 0px; 
@@ -20,6 +21,12 @@ body {
     margin: -30px;
     padding: 100px;
    }
+   h1 {
+    font-size: 3em;
+   }
+   h2 {
+    font-size: 2.25em;
+   }
 
    #footer{
     background-color: #335556;
@@ -30,7 +37,7 @@ body {
    }
 
    #topNav {
-    background-color: #4b1925;
+    background-color: #8b3639;
     margin-bottom: 30px;
     padding-top: 2em;
     padding-bottom: 2em;
