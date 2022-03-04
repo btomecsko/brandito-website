@@ -8,6 +8,11 @@ body {
     border: 0px;
    }
 
+   #austin {
+    width: 100%;
+    margin-top: -30px;
+   }
+
    #about {
     background-color: #335556;
     text-align: left;
@@ -52,4 +57,19 @@ body {
    #topNav a:hover {
     color: black;
     background-color: #616161;
+   }
+
+   @media screen and (max-width: 900px) {
+    #topNav a {
+     padding-top: .5em;
+     padding-bottom: .5em;
+     display: block;
+    }
+    #topNav {
+     padding-top: 0px;
+     padding-bottom: 0px;
+    }
+    #about, #contact {
+     padding: 40px;
+    }
    }
