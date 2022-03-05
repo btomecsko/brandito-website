@@ -28,8 +28,12 @@ body {
        flex: 50%;
        padding: 50px;
    }
-  
-    #contact {
+  #brandon {
+      width:auto;
+      padding: 50px;
+  }
+
+   #contact {
     background-color: #66999a;
     text-align: right;
     margin: -30px;
