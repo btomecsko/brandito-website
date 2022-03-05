@@ -20,19 +20,14 @@ body {
     padding: 100px;
    }
 
-   .column {
-    float: left;
-    width: 50%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
+   #about .row {
+       display: flex;
+   }
 
+   #about .column {
+       flex: 50%;
+   }
+  
     #contact {
     background-color: #66999a;
     text-align: right;
