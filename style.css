@@ -17,6 +17,7 @@ body {
     background-color: #335556;
     text-align: left;
     margin: auto;
+    display: block;
     padding: 100px;
    }
    #about .column p {
