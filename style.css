@@ -19,7 +19,9 @@ body {
     margin: -30px;
     padding: 100px;
    }
-
+   #about .column p {
+       text-align: left;
+   }
    #about .row {
        display: flex;
 
@@ -32,7 +34,7 @@ body {
    }
   #brandon {
       padding: 50px;
-      max-width: 100%;
+      max-width: 50%;
       text-align: center;
   }
 
