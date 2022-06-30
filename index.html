@@ -9,44 +9,30 @@
   </head>
   <body>
     <header class="main_header">
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg" style="background-color: #93ACB5;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Brandito's</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
+          <a class="navbar-brand" href="#">Brandito</a>
         </div>
       </nav>
     </header>
     <!--Main Body Content or About Me Section-->
-    <div class="container">
-        <section id="aboutMe">
-        <div class="row">
+    <div class="container rounded" id="main_body">
+        <section>
+        <div class="row aboutMe">
             <h2 class="text-center">About Me</h2>
           </div>
         <div class="row">
             <div class="col-sm-8">
-                <p>Welcome to my portfolio site! My name is Brandon Tomecsko.</p>
+                <h4>Background</h4>
+                <p>Welcome to my portfolio site! My name is Brandon Tomecsko and I reside in Central Texas. Currently, I am a full stack software engineering student at the Flatiron School Bootcamp.</p>
                 <br>
-                <h4>Coding Background</h4>
-                <p>Currently, I am a full stack software engineering student at the Flatiron School Bootcamp. I hold a Bachelor of Science in Public Relations and Digital Media from Texas State University.</p>
-                <br>
-                <ul class="list-group">
-                    <li class="list-group-item active" aria-current="true">Tech Experience</li>
-                    <li class="list-group-item">JavaScript Proficiency from First Phase of the Bootcamp</li>
-                    <li class="list-group-item">Analyzed Technical Recruiting Tools for Better Implementation</li>
-                    <li class="list-group-item">Former Technical Support Specialist at WP Engine</li>
-                    <li class="list-group-item">Web Design and Advanced Coding Classes from Texas State Univeristy</li>
+                <ul class="list-group" id="mainTable">
+                    <li class="list-group-item" aria-current="true" id="listHeader">
+                      <a class="btn" href="#" role="button" id="general" style="background-color: #F2F4FF;">General</a>
+                      <a class="btn" href="#" role="button" id="tech" style="background-color: #F2F4FF;">Tech Experience</a>
+                    </li>
+                    <section id="generalEx" hidden></section>
+                    <section id="techEx" hidden></section>
                   </ul>  
                 </div>
             <div class="col-sm-4">
@@ -55,6 +41,6 @@
           </div>
         </section>
     </div>
-    <script src="./script.js"></script>   
+    <script src="./index.js"></script>   
   </body>
   </html>

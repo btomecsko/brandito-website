@@ -1,98 +1,36 @@
 body {
-    background-color: #335556;
-    color: #d4d9dd;
     text-align: center;
     margin: 0px;
     padding: 0px; 
     outline: none;
     border: 0px;
    }
-
-   #austin {
-    width: 100%;
-    margin-top: -30px;
-   }
-
-   #about {
-    background-color: #335556;
-    text-align: left;
-    margin: auto;
-    display: block;
-    padding: 100px;
-   }
-   #about .column p {
-       text-align: left;
-       padding: 50px;
-       margin: auto;
-       display: block;
-   }
-   #about .row {
-       display: flex;
-
-   }
-
-   #about .column {
-       column-gap: 40px;
-       flex: 50%;
-       padding: 50px;
-   }
-  #brandon {
-      padding: 50px;
-      max-width: 50%;
-      margin: auto;
-      display: block;
-  }
-
-   #contact {
-    background-color: #66999a;
-    text-align: right;
-    margin: -30px;
-    padding: 100px;
-   }
-   h1 {
+   
+h1 {
     font-size: 3em;
    }
-   h2 {
+ h2 {
     font-size: 2.25em;
    }
 
-   #footer{
-    background-color: #335556;
-   }
-   #footer img {
-    width: 75px;
-    padding: 20px;
+  
+
+#main_body{
+    background-color: #93ACB5;
+    margin-top: 75px; 
+    padding: 25px 10px 25px 10px;
+    border:solid; 
+    border-color: #6C756B; 
+    border-width: thick;
    }
 
-   #topNav {
-    background-color: #66999a;
-    margin-bottom: 30px;
-    padding-top: 2em;
-    padding-bottom: 2em;
-   }
-   #topNav a {
-    color: #d4d9dd;
-    padding-left: 3em;
-    padding-right: 3em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-   }
-   #topNav a:hover {
-    color: black;
-    background-color: #616161;
+.aboutMe {
+    margin-bottom: 15px;
+    background-color: #6C756B;
+
    }
 
-   @media screen and (max-width: 900px) {
-    #topNav a {
-     padding-top: .5em;
-     padding-bottom: .5em;
-     display: block;
-    }
-    #topNav {
-     padding-top: 0px;
-     padding-bottom: 0px;
-    }
-    #about, #contact {
-     padding: 40px;
-    }
-   }
+#listHeader{
+    background-color: #6C756B;
+}
+
