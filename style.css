@@ -6,15 +6,6 @@ body {
     border: 0px;
    }
    
-h1 {
-    font-size: 3em;
-   }
- h2 {
-    font-size: 2.25em;
-   }
-
-  
-
 #main_body{
     background-color: #93ACB5;
     margin-top: 75px; 
@@ -34,3 +25,12 @@ h1 {
     background-color: #6C756B;
 }
 
+#portfolio{
+    background-color: #93ACB5;
+    margin-top: 75px;
+    margin-bottom: 75px; 
+    padding: 25px 10px 25px 10px;
+    border:solid; 
+    border-color: #6C756B; 
+    border-width: thick;
+}
