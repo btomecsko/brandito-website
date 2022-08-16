@@ -1,70 +1,64 @@
 //DOM node variables
+const mainTable = () => document.getElementById('mainTable');
+//Table buttons
 const general = () => document.getElementById('general');
 const tech = () => document.getElementById('tech');
-const mainTable = () => document.getElementById('mainTable');
+//Table Section Ids
 const generalEx = () => document.getElementById('generalEx');
 const techEx = () => document.getElementById('techEx');
 
 //DOM Content Loaded
 document.addEventListener('DOMContentLoaded', () => {
-   generalEvent();
-   techEvent();
-    
+    generalEvent();
+    techEvent();    
 })
 
-//General click event
+//General Table click event
 const generalEvent = () => {
-    general().addEventListener('click', renderGeneral)
-}
-
-//Tech click event
-
-const techEvent = () => {
-  tech().addEventListener('click', renderTech)
-}
-
-//General event handler
-const renderGeneral = (e) =>{
-    e.preventDefault();
-   
-    document.getElementById('generalEx').hidden = false;
-    document.getElementById('techEx').hidden = true;
-    techEx().textContent = "";
-
-    //Initialize function 
-    getGeneralEx();
-    
-}
-
-//Tech event handler
-const renderTech = (e) =>{
-  e.preventDefault();
+    general().addEventListener('click', (e) => {
+      e.preventDefault();
   
-  document.getElementById('generalEx').hidden = true;
-  document.getElementById('techEx').hidden = false;
-  generalEx().textContent = "";
+      //DOM Function
+      getGeneralEx();
 
-  //Initialize function 
-  getTechEx();
+      //Clear Tech for General Experience
+      //getTechEx().textContent = "";
   
+  }, {once : true});
 }
 
-//General DOM function
+
+//General DOM Functionality
 function getGeneralEx(){
-   //build general experience
+   //General experience
    const generalDiv = document.createElement('div')
    generalDiv.className = 'generalDiv'
    generalDiv.innerHTML = `
        <li class="list-group-item">Degree: Bachelor of Science in Public Relations and Digital Media</li>
        <li class="list-group-item">Hobbies: Reading, video games and watching any type of superhero or supernatural show</li>
-       <li class="list-group-item">Family: Two beautiful doggoes and an amazing partner</li>
+       <li class="list-group-item">Family: Two floofy doggos and a wonderful partner</li>
    `
    generalEx().appendChild(generalDiv)
 }
 
+//Tech Table click event
+const techEvent = () => {
+   tech().addEventListener('click', (e) =>{
+    e.preventDefault();
+
+     //DOM function 
+     getTechEx();
+    
+    //Clear General for Tech Experience
+    
+    
+  }, {once : true});
+ }
+
+
 //Tech DOM function
 function getTechEx(){
-  //build general experience
+  //Tech experience
   const techDiv = document.createElement('div')
   techDiv.className = 'techDiv'
   techDiv.innerHTML = `
