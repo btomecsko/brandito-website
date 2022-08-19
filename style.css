@@ -5,6 +5,7 @@ body {
     outline: none;
     border: 0px;
    }
+
    
 #main_body{
     background-color: #93ACB5;
@@ -25,7 +26,7 @@ body {
     background-color: #6C756B;
 }
 
-#portfolio{
+/* #portfolio{
     background-color: #93ACB5;
     margin-top: 75px;
     margin-bottom: 75px; 
@@ -33,4 +34,4 @@ body {
     border:solid; 
     border-color: #6C756B; 
     border-width: thick;
-}
+} */
