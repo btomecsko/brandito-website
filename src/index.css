@@ -23,8 +23,8 @@ body {
   }
 
   .btn {
-    padding: 12px 32px;
-    font-size: 1rem;
+    padding: 12px 24px;
+    font-size: 16px;
     text-transform: uppercase;
     background: #BDB5D5;
     color: #000938;
