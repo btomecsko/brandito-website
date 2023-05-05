@@ -29,18 +29,18 @@ const Footer = () => {
             This portfolio was designed to showcase my coding projects.
           </p>
           <div className="social">
-            <Link to={{pathname: "https://www.linkedin.com/in/btomecsko/"}} target="_blank">
+            <a href="https://www.linkedin.com/in/btomecsko/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin
               size={30}
               style={{ color: "#BDB5D5", marginRight: "1rem" }}
             />
-            </Link>
-            <Link to={{pathname: "https://www.linkedin.com/in/btomecsko/"}} target="_blank">
+            </a>
+            <a href="https://github.com/btomecsko" target="_blank" rel="noopener noreferrer">
             <FaGithub
               size={30}
               style={{ color: "#BDB5D5", marginRight: "1rem" }}
             />
-            </Link>
+            </a>
           </div>
             </div>
         </div>

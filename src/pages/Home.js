@@ -12,7 +12,7 @@ const Home = () => {
             <Link to="/projects" className="btn">
               Projects
             </Link>
-            <Link href="https://github.com/btomecsko" target="_blank" className="btn btn-light">GitHub</Link>
+            <a href="https://github.com/btomecsko" target="_blank" rel="noopener noreferrer" className="btn btn-light">GitHub</a>
           </div>
         </div>
         </div>
