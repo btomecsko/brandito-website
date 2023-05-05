@@ -9,7 +9,7 @@ const Home = () => {
         <div className="content">
           <img className="about-img" src={Brandito} alt="brandito" />
           <div>
-            <Link to="/projects" className="btn">
+            <Link to="/brandito-website/projects" className="btn">
               Projects
             </Link>
             <a href="https://github.com/btomecsko" target="_blank" rel="noopener noreferrer" className="btn btn-light">GitHub</a>
