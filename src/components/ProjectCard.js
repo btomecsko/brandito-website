@@ -10,11 +10,11 @@ const ProjectCard = ({ repo }) => {
       <div className="pro-details">
         <p>{description}</p>
         <div className="pro-btns">
-          <NavLink to={html_url} className="btn">
+          <NavLink to={html_url} className="btn" target="_blank">
             GitHub Repo
           </NavLink>
           {homepage && (
-            <NavLink to={homepage} className="btn">
+            <NavLink to={homepage} className="btn" target="_blank">
               YouTube
             </NavLink>
           )}
