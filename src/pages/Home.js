@@ -12,6 +12,7 @@ const Home = () => {
             <Link to="/projects" className="btn">
               Projects
             </Link>
+            <button href="https://github.com/btomecsko" target="_blank" className="btn btn-light">GitHub</button>
           </div>
         </div>
         </div>

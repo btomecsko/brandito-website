@@ -3,7 +3,8 @@ import "../styles/Footer.css";
 
 import {
     FaMailBulk,
-    FaLinkedin
+    FaLinkedin,
+    FaGithub
   } from "react-icons/fa";
 
 
@@ -33,6 +34,14 @@ const Footer = () => {
               size={30}
               style={{ color: "#BDB5D5", marginRight: "1rem" }}
               href="https://www.linkedin.com/in/btomecsko/"
+              target="_blank"
+            />
+            </Link>
+            <Link to={{pathname: "https://www.linkedin.com/in/btomecsko/"}} target="_blank">
+            <FaGithub
+              size={30}
+              style={{ color: "#BDB5D5", marginRight: "1rem" }}
+              href="https://github.com/btomecsko"
               target="_blank"
             />
             </Link>

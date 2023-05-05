@@ -1,9 +1,8 @@
 import { NavLink } from "react-router-dom";
 import "../styles/Project.css";
 
-
-const ProjectCard = ({repo}) => {
-    const { name, description, html_url } = repo
+const ProjectCard = ({ repo }) => {
+  const { name, description, html_url, homepage } = repo;
 
   return (
     <div className="project-card">
@@ -12,12 +11,17 @@ const ProjectCard = ({repo}) => {
         <p>{description}</p>
         <div className="pro-btns">
           <NavLink to={html_url} className="btn">
-            Source
+            GitHub Repo
           </NavLink>
+          {homepage && (
+            <NavLink to={homepage} className="btn">
+              YouTube
+            </NavLink>
+          )}
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectCard
+export default ProjectCard;
