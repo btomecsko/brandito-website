@@ -3,7 +3,8 @@ import "../styles/Footer.css";
 import {
     FaMailBulk,
     FaLinkedin,
-    FaGithub
+    FaGithub,
+    FaSalesforce
   } from "react-icons/fa";
 
 
@@ -36,6 +37,12 @@ const Footer = () => {
             </a>
             <a href="https://github.com/btomecsko" target="_blank" rel="noopener noreferrer">
             <FaGithub
+              size={30}
+              style={{ color: "#BDB5D5", marginRight: "1rem" }}
+            />
+            </a>
+            <a href="https://www.salesforce.com/trailblazer/btomecsko" target="_blank" rel="noopener noreferrer">
+            <FaSalesforce
               size={30}
               style={{ color: "#BDB5D5", marginRight: "1rem" }}
             />
