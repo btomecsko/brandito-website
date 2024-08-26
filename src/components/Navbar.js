@@ -30,6 +30,9 @@ const Navbar = () => {
         <li>
           <Link to="/brandito-website/projects">Projects</Link>
         </li>
+        <li>
+          <Link to="/brandito-website/certs">Certifications</Link>
+        </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ? (

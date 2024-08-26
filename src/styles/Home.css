@@ -5,18 +5,26 @@
 }
 
 .about-img {
-    width: 125%;
-    height: 100%;
+    max-width: 80%;
     background-position: center;
 }
 
-.home .content {
+.content {
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    max-width: 100%;
+}
+
+/*.home .content {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
     text-align: center;
-}
+}*/
 
 .content .btn {
     margin: 2rem 0.5rem;
