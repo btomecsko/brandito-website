@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/brandito-website/static/css/main.f6fbb9d3.css",
-    "main.js": "/brandito-website/static/js/main.b3bbbd7f.js",
-    "static/media/brandito.png": "/brandito-website/static/media/brandito.ab1ce12412a3faf72af3.png",
+    "main.js": "/brandito-website/static/js/main.24f1c6c6.js",
+    "static/media/brandito.png": "/brandito-website/static/media/brandito.0cc8000760fc96f1e0c4.png",
     "index.html": "/brandito-website/index.html",
     "main.f6fbb9d3.css.map": "/brandito-website/static/css/main.f6fbb9d3.css.map",
-    "main.b3bbbd7f.js.map": "/brandito-website/static/js/main.b3bbbd7f.js.map"
+    "main.24f1c6c6.js.map": "/brandito-website/static/js/main.24f1c6c6.js.map"
   },
   "entrypoints": [
     "static/css/main.f6fbb9d3.css",
-    "static/js/main.b3bbbd7f.js"
+    "static/js/main.24f1c6c6.js"
   ]
 }
