@@ -9,6 +9,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
+    padding-top: 10px;
     padding-bottom: 5rem;
   }
   
@@ -48,4 +49,15 @@
   
       grid-template-columns: 1fr;
     }
+  }
+
+  .verification-container {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .cert-details {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    font-style: italic;
   }
