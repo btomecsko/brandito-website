@@ -12,9 +12,9 @@ const App = () => {
     <>
       <Navbar />
       <Routes>
-        <Route path="/brandito-website" element={<Home />} />
-        <Route path="/brandito-website/projects" element={<Project/>} />
-        <Route path="/brandito-website/certs" element={<Certs/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Project/>} />
+        <Route path="/certs" element={<Certs/>} />
       </Routes>
       <Footer/>
     </>

@@ -20,18 +20,18 @@ const Navbar = () => {
 
   return (
     <div className={scrollColor ? "header header-bg" : "header"}>
-      <Link to="/brandito-website">
+       <Link to="/">
         <h1>branditoDev</h1>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/brandito-website">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/brandito-website/projects">Projects</Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <Link to="/brandito-website/certs">Certifications</Link>
+          <Link to="/certs">Certifications</Link> 
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
