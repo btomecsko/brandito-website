@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <div className={scrollColor ? "header header-bg" : "header"}>
-      <Link to="/">
+      <Link to="/brandito-website">
         <h1>branditoDev</h1>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
