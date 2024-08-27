@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/brandito-website/static/css/main.b60bd528.css",
-    "main.js": "/brandito-website/static/js/main.dd9fb3a4.js",
+    "main.css": "/brandito-website/static/css/main.893b1ae7.css",
+    "main.js": "/brandito-website/static/js/main.5413ae5f.js",
     "static/media/brandito.png": "/brandito-website/static/media/brandito.0cc8000760fc96f1e0c4.png",
     "static/media/muleAssoc.png": "/brandito-website/static/media/muleAssoc.07232b1a45defc52e14a.png",
     "static/media/muleDev.png": "/brandito-website/static/media/muleDev.be7435c54381c27e8d38.png",
     "static/media/sfAI.png": "/brandito-website/static/media/sfAI.19d94e4fe08662a997db.png",
     "static/media/sfAssoc.png": "/brandito-website/static/media/sfAssoc.93c3a7823671f384fe8f.png",
     "index.html": "/brandito-website/index.html",
-    "main.b60bd528.css.map": "/brandito-website/static/css/main.b60bd528.css.map",
-    "main.dd9fb3a4.js.map": "/brandito-website/static/js/main.dd9fb3a4.js.map"
+    "main.893b1ae7.css.map": "/brandito-website/static/css/main.893b1ae7.css.map",
+    "main.5413ae5f.js.map": "/brandito-website/static/js/main.5413ae5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b60bd528.css",
-    "static/js/main.dd9fb3a4.js"
+    "static/css/main.893b1ae7.css",
+    "static/js/main.5413ae5f.js"
   ]
 }
